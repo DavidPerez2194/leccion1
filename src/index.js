@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+
+
 app.get("/usuarios", (req, res) => {
   let usuarios = [
     { id: "03", nombres: "david", apellido1: "gomez", apellido2: "lopez", edad: "30", sexo: "masculino", telefono: "312456382",
